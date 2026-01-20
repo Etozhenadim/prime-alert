@@ -15,7 +15,7 @@ export function PrimeAlert() {
   return (
     <AlertDialog defaultOpen={true}>
       <AlertDialogTrigger asChild>
-        <Button>Reopen Alert</Button>
+        <Button className="data-[state=open]:hidden">Reopen Alert</Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>

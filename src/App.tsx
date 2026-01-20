@@ -1,11 +1,7 @@
-import {PrimeAlert} from "./components/PrimeAlert";
+import { PrimeAlert } from "./components/PrimeAlert";
 
 function App() {
-  return (
-    <>
-      <PrimeAlert />
-    </>
-  );
+  return <PrimeAlert />;
 }
 
 export default App;

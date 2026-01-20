@@ -1,9 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
+  --red-50: #fdf2f2;
   --red-600: #de2c18;
   --red-800: #9e1c15;
   --orange-400: #ff8a4c;
@@ -11,9 +10,9 @@
 }
 
 @layer base {
-  /* * {
-    @apply border-box;
-  } */
+  * {
+    @apply box-border;
+  }
 
   #root {
     max-width: 1280px;
@@ -31,7 +30,7 @@
   }
   html,
   body {
-    @apply m-0 p-0 min-h-screen;
+    @apply m-0 min-h-screen p-0;
   }
 
   body {
